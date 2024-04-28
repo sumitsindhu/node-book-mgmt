@@ -1,9 +1,10 @@
-# node-book-Mgmt
+# Node-Book-Mgmt
 
-## Setting up the Project
-Clone the repository to your local machine
-Install necessary packages -> npm install
-Run Migrations and seeders ->
+# Setting up the Project
+    Clone the repository to your local machine
+    Install necessary packages -> npm install
+
+# Run Migrations and seeders ->
     Navigate to src folder
     Then run ->
         npx sequelize db:migrate

@@ -1,0 +1,31 @@
+# PORT
+PORT=3000
+
+#DB CONFIG
+DB_DIALECT=postgres
+DB_DEBUG=false
+DB_POOL_MAX=5
+DB_POOL_MIN=0
+DB_POOL_ACQUIRE=30000
+DB_POOL_IDLE=10000
+DB_PORT=5432
+
+# LOCALHOST DB CONFIGURATION
+LOCALHOST_DB_HOST=localhost 
+LOCALHOST_DB_USER=postgres
+LOCALHOST_DB_PASSWORD=replace_this
+LOCALHOST_DB_NAME= replace_this
+# JWT
+# JWT secret key
+JWT_SECRET=replace_this
+# Number of minutes after which an access token expires
+JWT_ACCESS_EXPIRATION_MINUTES=3600
+
+#CRYPTO
+ENCRYPTION_KEY=replace_this
+
+# REST_API_KEY
+REST_API_KEY=replace_this
+
+
+LOCALHOST_APP_LINK = test.com
